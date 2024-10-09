@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Abstract\IConsole.hpp" />
+    <ClInclude Include="basic\ka_ISelectionable.hpp" />
+    <ClInclude Include="basic\ka_IManagerSelection.hpp" />
+    <ClInclude Include="component\utils.hpp" />
+    <ClInclude Include="component\ka_ICinematics.hpp" />
+    <ClInclude Include="component\ka_ISprite.hpp" />
+    <ClInclude Include="component\ka_Physics.hpp" />
+    <ClInclude Include="basic\ka_mouse.hpp" />
+    <ClInclude Include="component\ka_ImageString.hpp" />
+  </ItemGroup>
+</Project>
