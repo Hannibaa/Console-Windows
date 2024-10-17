@@ -16,18 +16,14 @@ namespace console {
 
 	public:
 
-		Transformable()
-		//	:
-		{}
-
 		virtual ~Transformable() = default;
 
-		void set_position(T x, T y)
+		virtual void set_position(T x, T y)
 		{
 			_pos.x = x, _pos.y = y;
 		}
 
-		void set_position(vector_type const& position) {
+		virtual void set_position(vector_type const& position) {
 			_pos = position;
 		}
 
